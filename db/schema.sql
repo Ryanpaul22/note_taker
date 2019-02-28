@@ -1,11 +1,12 @@
-DROP DATABASE IF EXISTS note_takerDB;
+DROP DATABASE IF EXISTS notes_db;
 
-CREATE DATABASE note_takerDB;
+CREATE DATABASE notes_db;
 
-USE note_takerDB;
+USE notes_db;
 
-CREATE TABLE note_taker (
+CREATE TABLE notes (
   id INTEGER(11) NOT NULL AUTO_INCREMENT,
   note VARCHAR(255) NOT NULL,
+
   PRIMARY KEY (id)
 );

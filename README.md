@@ -1,2 +1,0 @@
-# note_taker
-homework

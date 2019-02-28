@@ -11,7 +11,7 @@ else {
     port: 3306,
     user: "root",
     password: "Socrates2018",
-    database: "note_takerDB"
+    database: "notes_db"
   });
 }
 

@@ -1,8 +1,9 @@
-USE note_takerDB;
+USE notes_db;
 
-INSERT INTO note_taker
+INSERT INTO notes
   (note)
 VALUES
   ("Create more notes"),
   ("Finish app"),
   ("Win over my class");
+  
